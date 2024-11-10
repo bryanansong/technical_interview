@@ -9,6 +9,11 @@ const nextConfig: NextConfig = {
         hostname: 'assets.leetcode.com',
         pathname: '/uploads/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'utfs.io',
+        pathname: '/**',
+      },
     ],
   },
 };
